@@ -1,1 +1,1 @@
-web: gunicorn -k --timeout 120 eventlet chatapp:app
+web: gunicorn --timeout 120 -k eventlet chatapp:app
