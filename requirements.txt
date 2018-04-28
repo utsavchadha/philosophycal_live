@@ -1,6 +1,7 @@
 gunicorn==19.7.1
 Flask==1.0
 Flask-Sockets==0.2.0
+Flask-SocketIO==1.1
 gevent==1.0.2
 greenlet==0.4.9
 itsdangerous==0.24
