@@ -9,8 +9,8 @@ from numpy import dot
 from numpy.linalg import norm
 
 from spacy import load
-import en_core_web_lg
-nlp= en_core_web_lg.load()
+import en_core_web_sm
+nlp= en_core_web_sm.load()
 
 doc_nietzsche = nlp(open("data/nietzsche_texts.txt").read())
 doc_camus = nlp(open("data/camus_texts.rtf").read())

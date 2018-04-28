@@ -13,4 +13,4 @@ Werkzeug==0.11.3
 Eventlet==0.22.1
 spacy==2.0
 numpy==1.14.2
-https://github.com/explosion/spacy-models/releases/download/en_core_web_lg-2.0.0/en_core_web_lg-2.0.0.tar.gz
+https://github.com/explosion/spacy-models/releases/download/en_core_web_sm-1.2.0/en_core_web_sm-1.2.0.tar.gz
