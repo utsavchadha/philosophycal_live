@@ -8,7 +8,10 @@ import numpy as np
 from numpy import dot
 from numpy.linalg import norm
 
-nlp = spacy.load('en_core_web_lg')
+from spacy import load
+import en_core_web_lg
+nlp= en_core_web_lg.load()
+
 doc_nietzsche = nlp(open("data/nietzsche_texts.txt").read())
 doc_camus = nlp(open("data/camus_texts.rtf").read())
 doc_simone = nlp(open("data/simone_texts.rtf").read())
